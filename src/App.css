@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #71d2f8;
+  height: 60px;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+li {
+  display: inline;
+}
+
+.cart-moving {
+  animation-name: cart-move;
+  animation-duration: 5s;
+  height: 20px;
+  position: relative;
+}
+
+@keyframes cart-move {
+  from { left: -860%; top: 0px; }
+  to { left: 0px; top: 0px;}
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #464A4F;
+  color: white;
+  padding: 2px;
+  font-size: 12px;
+}
+
+th:first-letter {
+  text-transform:capitalize;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.Modal {
+  font-size: 12px;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  background-color: #F5F5F5;
+  width: 300px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+fieldset {
+  border: none;
+  margin: 0px auto;
+}
+
+fieldset > label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 3px;
+  text-align: right;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+fieldset > input {
+  font-size: 10px;
+  width: 120px;
+}
+.Select-control {
+  max-height: 30px;
+  padding: 0px;
+}
+
+.Select-input {
+  position: absolute;
+  top: 0px;
+}
+
+.Select-value {
+  position: relative;
+  white-space: normal;
+}
+
+.fa-times-thin:before {
+  content: '\00d7';
+  color: white;
+}
+
+tr:nth-child(even) {background: #ddd}
+tr:nth-child(odd) {background: #eee}
